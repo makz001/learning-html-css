@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>2 circles</title>
+	</head>
+
+	<body>
+		<div class="circle red">
+		</div>
+
+		<div class="circle blue">
+		</div>
+	</body>
+<style>
+
+.circle {
+	width: 400px;
+	height: 400px;
+	border-radius: 50%;
+	position: absolute;
+	top: 50px;
+	left: 100px;
+}
+
+.red {
+	background: #f00;
+	z-index: 2;
+}
+
+.blue {
+	background: #00f;
+	top: 100px;
+	left: 150px;
+	z-index: 1;
+}
+
+</style>
+</html>
