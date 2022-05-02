@@ -14,7 +14,7 @@ body {
     border-radius: 10px;
     padding: 50px;
     width: 400px;
-    height: 600px;
+    height: auto;
     margin: auto;
 
     display: flex;
@@ -23,11 +23,17 @@ body {
     text-align: left;
 }
 
-#survey-form label, p, fieldset {
-    margin: 10px 0px 0px 0px;
-}
-
 #survey-form input {
     font-family: inherit;
-    margin: 0px 0px 10px 0px;
 }
+
+
+fieldset {
+    border: 0px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
